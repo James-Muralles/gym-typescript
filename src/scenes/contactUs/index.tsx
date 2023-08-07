@@ -135,14 +135,11 @@ const ContactUs = ({setSelectedPage}: Props) => {
                     hidden:{opacity: 0, y:50},
                     visible:{opacity: 1, y:0}
                         }}>
-                            <div className="md:before:content-evolvetext w-full absolute before:-bottom-20 beofre:-right-10 before:z-[-1]">
+                            <div className="md:before:content-evolvetext w-full before:absolute before:-bottom-20 beofre:-right-10 before:z-[-1]">
                                 <img className="w-full" src={ConcactUsPageGraphic} alt="contact-us-page-graphic" />
                             </div>
-
                 </motion.div>
             </div>
-
-
             </motion.div> 
     </section>
   )
